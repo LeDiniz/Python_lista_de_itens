@@ -1,0 +1,16 @@
+# Lista para armazenar os itens
+itens = []
+
+#TODO: Solicite os itens ao usuário
+
+objetos = input()
+objetos1 = input()
+objetos2 = input()
+itens.append(objetos)
+itens.append(objetos1)
+itens.append(objetos2)
+
+# Exibe a lista de itens
+print("Lista de itens:")
+for item in itens:
+    print(f"- {item}")
